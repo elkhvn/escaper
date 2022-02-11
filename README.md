@@ -23,5 +23,7 @@ sudo python3 setup.py
 ### Usage
 Just execute the command. It will prompt the input with the string you want to escape 
 ![prompt](images/1.png)
+
+
 Output is the escaped string which you can use within double quotes without any problems.
 ![result](images/2.png)
