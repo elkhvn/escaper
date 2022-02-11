@@ -1,7 +1,7 @@
 # ESCAPER 
 ---
 
-This is simple python script which modify the string by escaping special characters which have special meaning for bash/zsh and other shells.
+This is simple python script which modify the string by escaping special characters which have special meaning for bash/zsh and other shells. Mainly useful when you want send payloads through **curl** or execute any command with ready exploit by passing it through terminal.
 
 ### Installation 
 First clone the repository to your machine.
@@ -22,5 +22,6 @@ sudo python3 setup.py
 
 ### Usage
 Just execute the command. It will prompt the input with the string you want to escape 
-
+![prompt](images/1.png)
 Output is the escaped string which you can use within double quotes without any problems.
+![result](images/2.png)
